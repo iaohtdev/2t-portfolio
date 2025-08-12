@@ -46,7 +46,7 @@ export default function AboutMe() {
         {/* Left side - Text content with animations */}
         <div className="space-y-6 animate-slide-in-left">
           <div className="space-y-4">
-            <p className="text-xl text-white/70 animate-fade-in-up">Hello, I'm</p>
+         <p className="text-xl text-white/70 animate-fade-in-up">Hello, I&apos;m</p>
             <h1 className="text-7xl font-bold text-white animate-bounce-gentle hover:animate-glow-text transition-all duration-300">
               2T Nguyen
             </h1>

@@ -113,8 +113,8 @@ export default function Home() {
                 <div>
                   <h3 className="text-lg font-bold text-white mb-4">Get In Touch</h3>
                   <p className="text-white/80 text-sm mb-6">
-                    I'm always interested in new opportunities and exciting projects. 
-                    Let's discuss how we can work together!
+                    I&apos;m always interested in new opportunities and exciting projects. 
+                    Let&apos;s discuss how we can work together!
                   </p>
                 </div>
                 
