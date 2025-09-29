@@ -54,14 +54,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
-      
-      {/* Floating Elements */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-blue-400/10 to-purple-500/10 rounded-full backdrop-blur-sm animate-float"></div>
-        <div className="absolute top-40 right-20 w-24 h-24 bg-gradient-to-br from-pink-400/10 to-red-500/10 rounded-full backdrop-blur-sm animate-float-delayed"></div>
-        <div className="absolute bottom-32 left-1/4 w-40 h-40 bg-gradient-to-br from-green-400/10 to-teal-500/10 rounded-full backdrop-blur-sm animate-float-slow"></div>
-        <div className="absolute top-1/3 right-1/3 w-20 h-20 bg-gradient-to-br from-yellow-400/10 to-orange-500/10 rounded-full backdrop-blur-sm animate-float"></div>
-      </div>
+
 
       {/* Main Content Container với kích thước cố định */}
       <div className="relative z-10 h-screen flex items-center justify-center p-6">
