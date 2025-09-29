@@ -34,7 +34,7 @@ export default function Skills() {
     },
     {
       title: 'Database',
-      skills: ['Hive', 'SQL, SQLite', 'MongoDB', 'Firebase (Firestore, Authentication, Push Notifications, Cloud Functions, Realtime Message)'],
+      skills: ['Hive/Isar', 'SQL, SQLite', 'MongoDB', 'Firebase (Firestore, Authentication, Push Notifications, Cloud Functions, Realtime Message)'],
       gradient: 'from-orange-500 to-red-600',
       icon: '🗄️',
       description: 'Data management'
@@ -83,7 +83,7 @@ export default function Skills() {
     },
     {
       title: 'Project Management',
-      skills: ['Task Division', 'Team Coordination', 'CI/CD Setup', 'Quality Assurance'],
+      skills: ['Task Division', 'Team Coordination','Quality Assurance'],
       gradient: 'from-emerald-500 to-teal-600',
       icon: '📋',
       description: 'Leadership & coordination'

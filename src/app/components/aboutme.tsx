@@ -96,7 +96,7 @@ export default function AboutMe() {
                     }}
                 >
                     <Image
-                        src="/images/avatar_2.jpg"
+                        src="/images/avatar_1.jpg"
                         alt="Nguyen Thanh Thoai"
                         fill
                         className="object-cover transition-transform duration-700 hover:scale-110"
