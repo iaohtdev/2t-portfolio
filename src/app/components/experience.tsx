@@ -236,22 +236,6 @@ export default function Experience() {
                 </div>
               </div>
 
-              {/* Achievement Badge */}
-              <div className="mt-8 p-4 rounded-xl bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 border border-white/10">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-white font-medium">Successfully Completed</p>
-                    <p className="text-white/60 text-sm">
-                      Delivered high-quality software solutions on time
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           ))}
       </div>
