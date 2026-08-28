@@ -62,14 +62,14 @@ export default function Contact() {
             {/* Mobile Header */}
             <div className="text-center pt-4">
               <h2 className="text-2xl font-bold text-white mb-3">
-                Let's Work
+                Let&apos;s Work
                 <span className="block text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">
                   Together
                 </span>
               </h2>
               <p className="text-white/70 text-sm leading-relaxed max-w-sm mx-auto">
-                I'm always open to new opportunities and exciting projects. 
-                Let's discuss how we can collaborate!
+                I&apos;m always open to new opportunities and exciting projects. 
+                Let&apos;s discuss how we can collaborate!
               </p>
             </div>
 
@@ -214,14 +214,14 @@ export default function Contact() {
                 {/* Desktop Header */}
                 <div className="space-y-3">
                   <h2 className="text-3xl xl:text-4xl font-bold text-white mb-3">
-                    Let's Work
+                    Let&apos;s Work
                     <span className="block text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text">
                       Together
                     </span>
                   </h2>
                   <p className="text-white/70 text-base leading-relaxed">
-                    I'm always open to new opportunities and exciting projects. 
-                    Let's discuss how we can collaborate!
+                    I&apos;m always open to new opportunities and exciting projects. 
+                    Let&apos;s discuss how we can collaborate!
                   </p>
                 </div>
                 

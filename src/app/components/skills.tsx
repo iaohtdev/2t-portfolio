@@ -12,60 +12,60 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      title: 'Cross-Platform Mobile Development',
+      title: 'Cross-Platform Mobile',
       skills: ['Flutter', 'React Native'],
       gradient: 'from-blue-500 to-cyan-600',
       icon: '📱',
       description: '4+ years experience'
     },
     {
-      title: 'Native Environment',
+      title: 'Native Mobile',
       skills: ['Android Kotlin', 'Swift'],
       gradient: 'from-green-500 to-emerald-600',
       icon: '📲',
-      description: 'Native mobile development'
+      description: 'Native development'
     },
     {
-      title: 'Third-Party Libraries',
-      skills: ['Google Service', 'Agora', 'Payment SDKs', 'Maps & Location'],
+      title: 'Desktop & Web / Backend',
+      skills: ['.NET (C# / WinForms)', 'Next.js', 'FastAPI', 'Node.js'],
       gradient: 'from-purple-500 to-violet-600',
-      icon: '🔌',
-      description: 'External integrations'
+      icon: '💻',
+      description: 'Desktop & modern web/API'
     },
     {
-      title: 'Database',
-      skills: ['Hive/Isar', 'SQL, SQLite', 'MongoDB', 'Firebase (Firestore, Authentication, Push Notifications, Cloud Functions, Realtime Message)'],
-      gradient: 'from-orange-500 to-red-600',
-      icon: '🗄️',
-      description: 'Data management'
+      title: 'Software Architecture',
+      skills: ['Clean Architecture', 'Core Migration', 'OOP', 'MVC / MVVM'],
+      gradient: 'from-teal-500 to-cyan-600',
+      icon: '🏗️',
+      description: 'Design & modernization'
     },
     {
       title: 'State Management',
       skills: ['Bloc', 'Cubit', 'Provider', 'GetX'],
       gradient: 'from-indigo-500 to-blue-600',
       icon: '🧩',
-      description: 'Flutter patterns'
+      description: 'Architecture patterns'
     },
     {
-      title: 'App Deployment',
-      skills: ['CH Play', 'App Store', 'CI/CD Setup', 'Release Management'],
+      title: 'Database & Storage',
+      skills: ['SQL, SQLite', 'Hive / Isar', 'MongoDB', 'Firebase'],
+      gradient: 'from-orange-500 to-red-600',
+      icon: '🗄️',
+      description: 'Data management'
+    },
+    {
+      title: 'API & Integration',
+      skills: ['RESTful API', 'HTTP / Dio', 'WebSockets', 'Payment SDKs'],
+      gradient: 'from-amber-500 to-orange-600',
+      icon: '🌐',
+      description: 'System communication'
+    },
+    {
+      title: 'App Deployment & CI/CD',
+      skills: ['Google Play', 'App Store', 'CI/CD Setup', 'Release Management'],
       gradient: 'from-pink-500 to-rose-600',
       icon: '🚀',
       description: 'Publishing & distribution'
-    },
-    {
-      title: 'Software Architecture',
-      skills: ['Clean Architecture', 'OOP', 'MVC', 'MVVM'],
-      gradient: 'from-teal-500 to-cyan-600',
-      icon: '🏗️',
-      description: 'Design patterns'
-    },
-    {
-      title: 'API Integration',
-      skills: ['HTTP', 'RESTful API', 'Dio', 'Sockets', 'Pusher'],
-      gradient: 'from-amber-500 to-orange-600',
-      icon: '🌐',
-      description: 'Backend communication'
     },
     {
       title: 'Version Control & Agile',
@@ -80,13 +80,6 @@ export default function Skills() {
       gradient: 'from-violet-500 to-purple-600',
       icon: '🎨',
       description: 'Design & prototyping'
-    },
-    {
-      title: 'Project Management',
-      skills: ['Task Division', 'Team Coordination','Quality Assurance'],
-      gradient: 'from-emerald-500 to-teal-600',
-      icon: '📋',
-      description: 'Leadership & coordination'
     }
   ];
 

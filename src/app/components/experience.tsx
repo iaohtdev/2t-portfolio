@@ -15,19 +15,18 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    title: "Mobile Developer",
+    title: "Software Engineer",
     company: "Concung.com",
-    companyDescription: "Leading e-commerce platform for mother and baby products in Vietnam",
+    companyDescription: "Leading mother & baby retail chain and e-commerce platform in Vietnam",
     period: "Jul 2024 – Present",
     description: [
-      "Developed software projects on Swift, Android/Flutter platforms",
-      "Designed, built and modified modules and features as assigned by department head",
-      "Collaborated with cross-functional teams (UI/UX, Backend, QA) to analyze requirements",
-      "Wrote clean, maintainable code following coding conventions",
-      "Tested, debugged and optimized applications for performance and stability",
-      "Participated in code reviews and knowledge sharing with team members"
+      "Participated in upgrading and modernizing the legacy POS system (.NET / WinForms), including core migration and UI/UX revamp",
+      "Developed and maintained mobile software solutions on Swift (iOS) and Android / Flutter platforms",
+      "Designed, built, and optimized core modules and features according to business requirements",
+      "Collaborated with cross-functional teams (UI/UX, Backend, QA) to analyze workflows and deliver reliable software solutions",
+      "Maintained clean, scalable code following conventions and actively participated in code reviews"
     ],
-    technologies: ["Flutter", "Swift", "Android", "Code Review"]
+    technologies: [".NET", "WinForms", "Flutter", "Swift", "Android", "Legacy Migration"]
   },
   {
     id: 2,
@@ -71,6 +70,9 @@ const experiences: ExperienceItem[] = [
 ];
 
 const techColors: { [key: string]: string } = {
+  ".NET": "bg-purple-500/20 text-purple-300 border-purple-500/30",
+  "WinForms": "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
+  "Legacy Migration": "bg-amber-500/20 text-amber-300 border-amber-500/30",
   "Flutter": "bg-blue-500/20 text-blue-300 border-blue-500/30",
   "Swift": "bg-orange-500/20 text-orange-300 border-orange-500/30",
   "Android": "bg-green-500/20 text-green-300 border-green-500/30",
@@ -103,7 +105,7 @@ export default function Experience() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/20 to-transparent animate-pulse"></div>
           </div>
           
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <div
               key={exp.id}
               className={`relative pl-16 pb-8 cursor-pointer transition-all duration-500 group ${

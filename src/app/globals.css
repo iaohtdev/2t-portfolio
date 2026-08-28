@@ -198,13 +198,13 @@ html, body {
 
 @keyframes border-pulse {
   0%, 100% {
-    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+    background: linear-gradient(45deg, #f59e0b, #3b82f6, #8b5cf6);
   }
   33% {
-    background: linear-gradient(45deg, #ec4899, #3b82f6, #8b5cf6);
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6, #f59e0b);
   }
   66% {
-    background: linear-gradient(45deg, #8b5cf6, #ec4899, #3b82f6);
+    background: linear-gradient(45deg, #8b5cf6, #f59e0b, #3b82f6);
   }
 }
 
