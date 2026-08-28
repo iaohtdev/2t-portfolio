@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useState } from "react";
 import AboutMe from "./components/aboutme";
 import Skills from "./components/skills";
-// import Projects from "./components/projects";
 import Experience from "./components/experience";
 import Contact from './components/contact';
 
@@ -16,7 +15,6 @@ export default function Home() {
     { id: 'about', label: 'About Me' },
     { id: 'experience', label: 'Experience' },
     { id: 'skills', label: 'Skills' },
-    // { id: 'projects', label: 'Projects' },
     { id: 'contact', label: 'Contact' }
   ];
 
@@ -37,9 +35,6 @@ export default function Home() {
         
       case 'skills':
         return <Skills />;
-        
-      // case 'projects':
-      //   return <Projects />;
         
       case 'contact':
         return <Contact />;
