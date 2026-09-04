@@ -50,12 +50,12 @@ export default function AboutMe() {
   };
 
   return (
-    <div className="w-full h-full flex items-center justify-center px-2 sm:px-8 py-2 sm:py-4">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+    <div className="w-full min-h-full flex flex-col justify-start md:justify-center items-center px-2 sm:px-8 py-4 sm:py-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center my-auto pb-6 md:pb-0">
         {/* Left side - Text content with animations */}
         <div className="space-y-5 sm:space-y-6 animate-slide-in-left">
           <div className="space-y-3 sm:space-y-4">
-         <p className="text-lg sm:text-xl text-white/70 animate-fade-in-up">Hello, I&apos;m</p>
+         <p className="text-base sm:text-xl text-white/70 animate-fade-in-up">Hello, I&apos;m</p>
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-white animate-bounce-gentle hover:animate-glow-text transition-all duration-300">
               2T Nguyen
             </h1>
